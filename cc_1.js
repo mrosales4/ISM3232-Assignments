@@ -13,3 +13,8 @@ console.log(`The bill was $${billAmount}, the tip was $${tip.toFixed(2)}, and th
 //Answer chnages if bill price is changed 
 const bill = 275;
 displayTotal(bill);
+
+// Test Function with $100 bill
+const testBill = 100;
+const testTip = calcTip(testBill);
+console.log(`Test bill: $${testBill}, tip: $${testTip.toFixed(2)}`);
