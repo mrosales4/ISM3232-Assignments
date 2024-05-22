@@ -1,4 +1,4 @@
-u22978120
+// U22978120
 
 function calcTip(billAmount) {
 // Calculate tip using ternary operator
